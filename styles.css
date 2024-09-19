@@ -81,5 +81,5 @@ footer {
     color: white;
     width: 100%;
     height: auto;
-    position: fixed;
+    position: bottom;
 }
