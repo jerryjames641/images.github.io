@@ -73,12 +73,37 @@ main {
     cursor: pointer;
 }
 
+/* 
+  Make HTML and body take up full height 
+*/
+
+html, 
+body {
+  height: 100%;
+  margin: 0;
+}
+
+/* 
+  Create container to wrap main content 
+*/
+
+.container {
+  min-height: 100%;
+  margin-bottom: 50px; /* height of the footer */
+  box-sizing: border-box;
+}
+
+/* 
+  Style footer 
+*/
+
 footer {
-    margin-top: 0;
-    padding: 20px;
-    text-align: center;
-    background-color: #4CAF50;
-    color: white;
-    width: 100%;
-    
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 50px; /* adjust to your footer height */
+  background-color: #4CAF50; /* optional */
+  text-align: center; /* optional */
+  padding: 15px; /* optional */
 }
