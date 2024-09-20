@@ -74,7 +74,7 @@ main {
 }
 
 footer {
-    margin-top: auto;
+    margin-top: 0;
     padding: 20px;
     text-align: center;
     background-color: #4CAF50;
